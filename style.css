@@ -1,3 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
 body {
+    height: 95vh;
+    width: 95;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: rgb(189, 129, 129);
+}
+
+.titulo {
+    color: rgb(58, 58, 160);
+    font-size: 40px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.subtitulo {
+    font-size: 32px;
+    margin-bottom: 20px;
 }
